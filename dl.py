@@ -49,3 +49,6 @@ def main():
     if sys.platform == "linux":
         for executable in linux_executables:
             make_executable(executable)
+
+if __name__ == "__main__":
+    main()
